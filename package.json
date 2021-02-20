@@ -1,0 +1,23 @@
+{
+  "name": "upwork-c1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdirusso/UpWork-C1.git"
+  },
+  "author": "Tim DiRusso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdirusso/UpWork-C1/issues"
+  },
+  "homepage": "https://github.com/tdirusso/UpWork-C1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

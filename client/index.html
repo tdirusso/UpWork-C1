@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My REfinwell: Creating More Successful Homeowners</title>
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
+
+        #login-screen {
+            background: white;
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        #login-screen h1,
+        #login-screen .card-title,
+        #login-screen .login-card-content {
+            font-family: 'Newsreader', serif !important;
+            text-align: center;
+        }
+
+        .login-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 3vw;
+            flex-direction: column;
+        }
+
+        .login-header img {
+            max-height: 130px;
+            max-width: 100%;
+            width: auto;
+        }
+
+        .login-header h1 {
+            margin-top: 0px;
+        }
+
+        .login-panel {
+            height: auto;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        #login-screen .login-submit-btn {
+            color: black;
+            background: white;
+            border: 1px solid black;
+            padding: 20px 35px;
+            margin-top: 50px;
+            cursor: pointer;
+            outline: none;
+            font-size: 14px;
+            transition: 0.1s background-color linear, 0.1s color linear;
+        }
+
+        #login-screen .login-submit-btn:hover {
+            color: white;
+            background: black;
+
+        }
+
+        #login-screen input {
+            border: 1px solid black;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+            font-size: 18px;
+            padding: 10px 0px 10px 0px;
+            width: 50%;
+            border-radius: 0px;
+            text-align: center;
+        }
+
+        #login-screen input::placeholder {
+            color: #acacac;
+        }
+
+        #login-screen .login-card {
+            position: relative;
+            margin: .5rem 0 1rem 0;
+            background-color: #fff;
+            -webkit-transition: -webkit-box-shadow .25s;
+            transition: -webkit-box-shadow .25s;
+            transition: box-shadow .25s;
+            transition: box-shadow .25s, -webkit-box-shadow .25s;
+            border-radius: 2px;
+            box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+            min-width: 50%;
+            padding: 45px 75px 75px 75px;
+        }
+
+        #login-screen .login-card-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #login-screen h2 {
+            margin-top: 0px;
+            margin-bottom: 50px;
+        }
+
+        @media only screen and (max-width: 767px) {
+            #login-screen input {
+                width: 100%;
+            }
+        }
+    </style>
+
+    <div id="login-screen">
+        <div class="login-header">
+            <img src="https://images.squarespace-cdn.com/content/5e1e26f0948c383a8f7daebc/1594851056922-K2WVJJBRIHD8Y03GMR0J/My%2BREfinwell-logo%2B%25281%2529.jpg?format=1500w&content-type=image%2Fjpeg"
+                alt="My REfinwell: Creating More Successful Homeowners">
+            <h1>Creating More Successful Homeowners</h1>
+        </div>
+        <div class="login-panel">
+            <div class="login-card">
+                <div class="login-card-content">
+                    <h2 class="login-card-title">Login</h2>
+                    <input id="password" type="password" class="validate" placeholder="Organization Web ID">
+                    <button class="login-submit-btn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.onload = function () {
+            document.getElementById('password').focus();
+        };
+    </script>
+</body>
+
+</html>
